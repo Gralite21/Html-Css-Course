@@ -1,0 +1,26 @@
+.css-amazon{
+    color: rgb(0,113,133);
+}
+.css-product{
+    font-size: 20px;
+    font-weight: bold;
+}
+.css-cost{
+    color: rgb(0,118,0);
+    font-weight: bold;
+}
+.css-addCart{
+    background-color: rgb(255,216,20);
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+}
+.css-buy{
+    background-color: rgb(255,164,28);
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 8px;
+}

@@ -1,0 +1,55 @@
+.css-request{
+    background-color: #2d2c2c;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 90px;
+    transition: opacity 0.15s;
+}
+.css-download{
+    background-color: white;
+    color:gray ;
+    border-color:gray;
+    height: 30px;
+    width: 90px;
+    border-radius:2px ;
+    border-width:1px ;
+    border-style: solid;
+    transition: background-color 0.15s, color 0.15s;
+}
+.css-signUp{
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    height:30px ;
+    width: 80px;
+    transition: box-shadow 0.15s;
+}
+.css-save{
+    background-color: white;
+    color: royalblue;
+    border-color: royalblue;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    border-style:solid ;
+    border-width: 1px;
+    font-weight: bold;
+    transition: background-color 0.15s, border-width 0.15s;
+}
+.css-request:hover{
+    opacity: 0.7;
+}
+.css-download:hover{
+    background-color:grey ;
+    color: white;
+}
+.css-signUp:hover{
+    box-shadow: 0px 5px 8px rgba(0,0,0,0.1);
+}
+.css-save:hover{
+    border-width: 2px;
+    background-color: #89a2da;
+}
