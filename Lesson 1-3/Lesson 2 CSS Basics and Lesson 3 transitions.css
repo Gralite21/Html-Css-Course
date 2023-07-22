@@ -6,6 +6,7 @@
     width: 105px;
     border-radius: 2px;
     cursor: pointer;
+    vertical-align: top;
     transition: opacity 0.15s;
 }
 .css-join{
@@ -19,9 +20,8 @@
     border-width: 1px;
     margin-left: 10px;
     cursor: pointer;
-
-    transition: background-color 0.15s,
-    color 0.15s;
+    vertical-align: top;
+    transition: background-color 0.15s, color 0.15s;
 }
 .css-tweet{
     background-color:rgb(2,137,255) ;
@@ -34,6 +34,7 @@
     width:90px ;
     margin-left: 10px;
     cursor: pointer;
+    vertical-align: top;
     transition: opacity 0.15s,boxshadow 0.15s;
 }
 .css-subscribe:hover{
