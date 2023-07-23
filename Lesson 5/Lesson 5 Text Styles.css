@@ -1,0 +1,115 @@
+p{
+    font-family: Arial,sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.video-title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.video-stats{
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-bottom: 20px;
+}
+.video-author{
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-bottom: 20px;
+}
+.video-description{
+    font-size: 14px;
+    color: rgb(96,96,96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+.apple-shop{
+    font-size: 14px;
+    background-color:rgb(227,65,64) ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.span-element:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Tahoma{
+    font-family: Tahoma,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.biggestDeals{
+    font-size: 16px;
+    font-weight: bold;
+}
+.salesEnd{
+    color: red;
+    margin-bottom: 20px;
+}
+.Course{
+    font-size: 18px;
+    font-weight: bold;
+}
+.beginnerPro{
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-bottom: 15px;
+}
+.beginnerProDescription{
+    font-size: 14px;
+    width: 240px;
+    margin-bottom: 15px;
+}
+.start{
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 6px 12px;
+}
+.shopping{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.appleHelp{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.appleLink{
+    text-align: center;
+    font-size: 10px;
+    color: royalblue;
+    cursor: pointer;
+}
+.number{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.span-usd{
+    color: rgb(96,96,96);
+    font-size:10px ;
+}
+.change-today{
+    font-size: 10px;
+    color: green;
+    margin-bottom: 5px;
+}
+.afterHours{
+    color: rgb(96,96,96);
+    font-size: 10px;
+}
+.span-change{
+    color: red;
+    font-size: 10px;
+}
