@@ -1,0 +1,84 @@
+.thumbnail{
+    width: 200px;
+    border-radius: 4px;
+}
+input{
+    width: 350px;
+    height: 50px;
+    margin-left: 12px;
+    border-radius: 8px;
+}
+.mrBeast{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+.spongeBob{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.search-google{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+    padding-left: 20px;
+}
+body{
+    font-family: Arial,sans-serif;
+}
+.linkedin-mail{
+    color: rgb(96,96,96);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.linkedin-input{
+    width:400px ;
+    height: 30px;
+    border-style: solid;
+    margin-left: 0;
+}
+.linkedin-terms{
+    color: rgb(96,96,96);
+    font-size: 16px;
+}
+.linkedin-join{
+    color: white;
+    background-color: royalblue;
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.tanjiroProfile{
+    width: 100px;
+    height: 100px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+.buttonTweet{
+    color: white;
+    background-color: #5a7ada;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-left: 130px;
+    vertical-align: middle;
+}
+.whatsHappening{
+    color: rgb(100,100,100);
+    font-size: 24px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
