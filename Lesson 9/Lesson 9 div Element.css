@@ -1,0 +1,9 @@
+.first-div,
+.second-div{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.img-inlineBlock{
+    width: 300px;
+}
