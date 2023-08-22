@@ -1,15 +1,12 @@
-
 .img-inlineBlock{
     width: 100%;
 }
-
 .video-title{
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     margin-bottom: 12px;
 }
-
 .video-stats,
 .video-author{
     font-size: 12px;
@@ -18,23 +15,16 @@
 .video-author{
     margin-bottom: 4px;
 }
-
 .profile-pic{
-    display: inline-block;
     width: 50px;
     vertical-align: top;
 }
-
 .profile-img{
     width: 40px;
     border-radius: 25px;
 }
-
 .thumbnail-row{
     margin-bottom: 12px;
-}
-.preview-vid{
-    display:inline-block;
 }
 .video-info-grid{
     display: grid;
