@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(66,69,73);
+    font-family: Arial, sans-serif;
+}
+.serverPicture{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.chatCategory{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.category{
+    color: white;
+    font-size: 14px;
+}
+.textChannel{
+    color: rgb(150, 150, 150);
+    margin-bottom: 16px;
+}
+.newChannel{
+    color: rgb(150, 150, 150);
+    font-size: 25px;
+}
+.serverSidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(30,33,36);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.chatSidebar{
+    position: fixed;
+    left: 70px;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    background-color: rgb(54,57,62);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
