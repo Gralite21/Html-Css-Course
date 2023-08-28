@@ -11,6 +11,7 @@
     border-bottom-width:2px ;
     border-bottom-style: solid;
     border-bottom-color: rgb(228,228,228);
+    z-index: 100;
 }
 .leftSection{
     display: flex;
@@ -90,10 +91,23 @@
 .notificationIcon{
     height: 24px;
 }
+.notification-Container-Count{
+    position: relative;
+}
+.notificationCount{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(200,0,0);
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
 .personalProfilePicture{
     height: 32px;
     width: 32px;
     border-radius: 16px;
     object-fit: cover;
-
 }
