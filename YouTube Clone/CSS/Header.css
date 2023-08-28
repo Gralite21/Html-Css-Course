@@ -57,6 +57,16 @@
 .youtubeLogoIcon{
     height: 20px;
 }
+.searchButton,
+.voiceButton,
+.upload-icon-container,
+.youtube-apps-icon-container,
+.notification-Container-Count{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .searchButton{
     height: 40px;
     width: 66px;
@@ -67,6 +77,31 @@
     margin-left: -1px;
     margin-right: 10px;
 }
+.searchButton .tooltip,
+.voiceButton .tooltip,
+.upload-icon-container .tooltip,
+.youtube-apps-icon-container .tooltip,
+.notification-Container-Count .tooltip{
+    font-family: Roboto, Arial, sans-serif;
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.searchButton:hover .tooltip,
+.voiceButton:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.youtube-apps-icon-container:hover .tooltip ,
+.notification-Container-Count:hover .tooltip {
+    opacity: 1;
+}
 .voiceButton{
     height: 40px;
     width: 40px;
@@ -76,11 +111,9 @@
 }
 .searchButtonIcon{
     height: 25px;
-    margin-top: 4px;
 }
 .voiceSearchIcon{
     height: 24px;
-    margin-top: 4px;
 }
 .uploadIcon{
     height: 24px;
