@@ -1,5 +1,6 @@
 .thumbnail{
     width: 100%;
+    border-radius: 12px;
 }
 .video-title{
     font-weight: 500;
@@ -123,4 +124,7 @@
     font-weight: 500;
     padding: 4px;
     border-radius: 2px;
+}
+.preview-vid{
+    cursor: pointer;
 }
