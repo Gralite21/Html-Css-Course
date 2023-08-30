@@ -1,213 +1,682 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Youtube</title>
-  <link rel="stylesheet" href="../CSS/VideoPreview.css">
-  <link rel="stylesheet" href="../CSS/Header.css">
-  <link rel="stylesheet" href="../CSS/general.css">
-  <link rel="stylesheet" href="../CSS/sidebar.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="../CSS/VideoPreview.css">
+    <link rel="stylesheet" href="../CSS/Header.css">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
 
-<div class="Header">
-  <div class="leftSection">
-    <img class="hamburgerMenuIcon" src="../Images/Icons/Hamburger-menu-Icon.svg">
-    <img class="youtubeLogoIcon" src="../Images/Icons/youtube-logo-Icon.svg">
-  </div>
-  <div class="middleSection">
-    <input class="Search-Bar" type="text" placeholder="Search">
-    <button class="searchButton">
-      <img class="searchButtonIcon" src="../Images/Icons/search-Icon.svg">
-      <div class="tooltip">Search</div>
-    </button>
-    <button class="voiceButton">
-      <img class="voiceSearchIcon" src="../Images/Icons/voice-search-icon.svg">
-      <div class="tooltip">Search with your Voice</div>
-    </button>
-  </div>
-  <div class="rightSection">
-    <div class="upload-icon-container">
-      <img class="uploadIcon" src="../Images/Icons/upload-Icon.svg">
-      <div class="tooltip">Create</div>
+    <div class="Header">
+      <div class="leftSection">
+        <img class="hamburgerMenuIcon" src="../Images/Icons/Hamburger-menu-Icon.svg">
+        <img class="youtubeLogoIcon" src="../Images/Icons/youtube-logo-Icon.svg">
+      </div>
+      <div class="middleSection">
+        <input class="Search-Bar" type="text" placeholder="Search">
+        <button class="searchButton">
+          <img class="searchButtonIcon" src="../Images/Icons/search-Icon.svg">
+          <div class="tooltip">
+            Search
+          </div>
+        </button>
+        <button class="voiceButton">
+          <img class="voiceSearchIcon" src="../Images/Icons/voice-search-icon.svg">
+          <div class="tooltip">
+            Search with your Voice
+          </div>
+        </button>
+      </div>
+      <div class="rightSection">
+        <div class="upload-icon-container">
+          <img class="uploadIcon" src="../Images/Icons/upload-Icon.svg">
+          <div class="tooltip">
+            Create
+          </div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtubeAppsIcon" src="../Images/Icons/youtube-apps-Icon.svg">
+          <div class="tooltip">
+            YouTube Apps
+          </div>
+        </div>
+        <div class="notification-Container-Count">
+          <img class="notificationIcon" src="../Images/Icons/notifications-Icon.svg">
+          <div class="tooltip">
+            Notification
+          </div>
+          <div class="notificationCount">
+            3
+          </div>
+        </div>
+        <img class="personalProfilePicture" src="../Images/Profile-Pictures/MyProfilePicture.png">
+      </div>
     </div>
-    <div class="youtube-apps-icon-container">
-      <img class="youtubeAppsIcon" src="../Images/Icons/youtube-apps-Icon.svg">
-      <div class="tooltip">YouTube Apps</div>
-    </div>
-    <div class="notification-Container-Count">
-      <img class="notificationIcon" src="../Images/Icons/notifications-Icon.svg">
-      <div class="tooltip">Notification</div>
-      <div class="notificationCount">3</div>
-    </div>
-    <img class="personalProfilePicture" src="../Images/Profile-Pictures/MyProfilePicture.png">
-  </div>
-</div>
 
-<div class="sidebar">
-  <div class="sidebar-Icon">
-    <img src="../Images/Icons/home-Icon.svg">
-    <div>Home</div>
-  </div>
-  <div class="sidebar-Icon">
-    <img src="../Images/Icons/explore-Icon.svg">
-    <div>Explore</div>
-  </div>
-  <div class="sidebar-Icon">
-    <img src="../Images/Icons/subscriptions-Icon.svg">
-    <div>Subscriptions</div>
-  </div>
-  <div class="sidebar-Icon">
-    <img src="../Images/Icons/originals-Icon.svg">
-    <div>Originals</div>
-  </div>
-  <div class="sidebar-Icon">
-    <img src="../Images/Icons/youtube-music-Icon.svg">
-    <div>YouTube Music</div>
-  </div>
-  <div class="sidebar-Icon">
-    <img src="../Images/Icons/library-Icon.svg">
-    <div>Library</div>
-  </div>
-</div>
+    <div class="sidebar">
+      <div class="sidebar-Icon">
+        <img src="../Images/Icons/home-Icon.svg">
+        <div>
+          Home
+        </div>
+      </div>
+      <div class="sidebar-Icon">
+        <img src="../Images/Icons/explore-Icon.svg">
+        <div>
+          Explore
+        </div>
+      </div>
+      <div class="sidebar-Icon">
+        <img src="../Images/Icons/subscriptions-Icon.svg">
+        <div>
+          Subscriptions
+        </div>
+      </div>
+      <div class="sidebar-Icon">
+        <img src="../Images/Icons/originals-Icon.svg">
+        <div>
+          Originals
+        </div>
+      </div>
+      <div class="sidebar-Icon">
+        <img src="../Images/Icons/youtube-music-Icon.svg">
+        <div>
+          YouTube Music
+        </div>
+      </div>
+      <div class="sidebar-Icon">
+        <img src="../Images/Icons/library-Icon.svg">
+        <div>
+          Library
+        </div>
+      </div>
+    </div>
 
-<div class="video-grid">
-  <div class="preview-vid">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="../Images/Thumbnails/Anomaly-Thumbnail.webp">
-      <div class="video-time">13:33</div>
-    </div>
-    <div class="video-info-grid">
-      <div class="profile-pic">
-        <img src="../Images/Profile-Pictures/Anomaly-Profile.jpg" class="profile-img">
+    <div class="video-grid">
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/Anomaly-Thumbnail.webp">
+          <div class="video-time">
+            13:33
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/Anomaly-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              UNBOXING 300 REVOLUTION CASES (CRAZY LUCK)
+            <p class="video-author">
+              Anomaly
+            </p>
+            <p class="video-stats">
+              968.356 views &#183;4 months ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="vid-info">
-        <p class="video-title">
-          UNBOXING 300 REVOLUTION CASES (CRAZY LUCK)
-        <p class="video-author">
-          Anomaly
-        </p>
-        <p class="video-stats">
-          968.356 views &#183;4 months ago
-        </p>
-      </div>
-    </div>
-  </div>
 
-  <div class="preview-vid">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="../Images/Thumbnails/HungrigerHugo-Thumbnail.webp">
-      <div class="video-time">8:09</div>
-    </div>
-    <div class="video-info-grid">
-      <div class="profile-pic">
-        <img src="../Images/Profile-Pictures/HungrigerHugo-Profile.jpg" class="profile-img">
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/HungrigerHugo-Thumbnail.webp">
+          <div class="video-time">
+            8:09
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/HungrigerHugo-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              7 VS. WILD START
+            <p class="video-author">
+              Hungriger Hugo
+            </p>
+            <p class="video-stats">
+              808.954 views &#183;3 days ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="vid-info">
-        <p class="video-title">
-          7 VS. WILD START
-        <p class="video-author">
-          Hungriger Hugo
-        </p>
-        <p class="video-stats">
-          808.954 views &#183;3 days ago
-        </p>
-      </div>
-    </div>
-  </div>
 
-  <div class="preview-vid">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="../Images/Thumbnails/Jidion-Thumbnail.webp">
-      <div class="video-time">14:32</div>
-    </div>
-    <div class="video-info-grid">
-      <div class="profile-pic">
-        <img src="../Images/Profile-Pictures/Jidion-Profile.jpg" class="profile-img">
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/Jidion-Thumbnail.webp">
+          <div class="video-time">
+            14:32
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/Jidion-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              We Both Called The Cops!
+            <p class="video-author">
+              JiDionPremium
+            </p>
+            <p class="video-stats">
+              1,9M views &#183;6 days ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="vid-info">
-        <p class="video-title">
-          We Both Called The Cops!
-        <p class="video-author">
-          JiDionPremium
-        </p>
-        <p class="video-stats">
-          1,9M views &#183;6 days ago
-        </p>
-      </div>
-    </div>
-  </div>
 
-  <div class="preview-vid">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="../Images/Thumbnails/JulienBam-Thumbnail.webp">
-      <div class="video-time">29:46</div>
-    </div>
-    <div class="video-info-grid">
-      <div class="profile-pic">
-        <img src="../Images/Profile-Pictures/JulienBam-Profile.jpg" class="profile-img">
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/JulienBam-Thumbnail.webp">
+          <div class="video-time">
+            29:46
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/JulienBam-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Der Mann im Mond - Akt 1 (Songs aus der Bohne) I Julien Bam
+            <p class="video-author">
+              Julien Bam
+            </p>
+            <p class="video-stats">
+              2,8M views &#183;3 days ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="vid-info">
-        <p class="video-title">
-          Der Mann im Mond - Akt 1 (Songs aus der Bohne) I Julien Bam
-        <p class="video-author">
-          Julien Bam
-        </p>
-        <p class="video-stats">
-          2,8M views &#183;3 days ago
-        </p>
-      </div>
-    </div>
-  </div>
 
-  <div class="preview-vid">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="../Images/Thumbnails/MrBeast-Thumbnail.webp">
-      <div class="video-time">18:05</div>
-    </div>
-    <div class="video-info-grid">
-      <div class="profile-pic">
-        <img src="../Images/Profile-Pictures/MrBeast-Profile.jpg" class="profile-img">
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/MrBeast-Thumbnail.webp">
+          <div class="video-time">
+            18:05
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/MrBeast-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              7 Days Stranded At Sea
+            <p class="video-author">
+              MrBeast
+            </p>
+            <p class="video-stats">
+              131M views &#183;2 weeks ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="vid-info">
-        <p class="video-title">
-          7 Days Stranded At Sea
-        <p class="video-author">
-          MrBeast
-        </p>
-        <p class="video-stats">
-          131M views &#183;2 weeks ago
-        </p>
-      </div>
-    </div>
-  </div>
 
-  <div class="preview-vid">
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="../Images/Thumbnails/Paluten-Thumbnail.webp">
-      <div class="video-time">11:51</div>
-    </div>
-    <div class="video-info-grid">
-      <div class="profile-pic">
-        <img src="../Images/Profile-Pictures/Paluten-Profile.jpg" class="profile-img">
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/Paluten-Thumbnail.webp">
+          <div class="video-time">
+            11:51
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/Paluten-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              SIE MÜSSEN STERBEN! - DIE JAGD AUF GLP UND ZOMBEY! ✪ Minecraft FREEDOM #201 | Paluten
+            <p class="video-author">
+              Paluten
+            </p>
+            <p class="video-stats">
+              2,8M views &#183;7 years ago
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="vid-info">
-        <p class="video-title">
-          SIE MÜSSEN STERBEN! - DIE JAGD AUF GLP UND ZOMBEY! ✪ Minecraft FREEDOM #201 | Paluten
-        <p class="video-author">
-          Paluten
-        </p>
-        <p class="video-stats">
-          2,8M views &#183;7 years ago
-        </p>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/AchtungAbzocke-Thumbnail.webp">
+          <div class="video-time">
+            10:27
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/AchtungAbzocke-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Dreistigkeit rächt sich! Peter haut Hütchenspieler über's Ohr! | 3/3 | Achtung Abzocke | Kabel Eins
+            <p class="video-author">
+              Achtung Abzocke
+            </p>
+            <p class="video-stats">
+              1,6M views &#183;2 years ago
+            </p>
+          </div>
+        </div>
       </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/Dream-Thumbnail.webp">
+          <div class="video-time">
+            2:21
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/dream-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              The Duel
+            <p class="video-author">
+              Dream
+            </p>
+            <p class="video-stats">
+              2,1M views &#183;3 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/GLP-Thumbnail.webp">
+          <div class="video-time">
+            13:21
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/GLP-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Der schönste GTA Online Urlaub unseres Lebens.
+            <p class="video-author">
+              GermanLetsPlay
+            </p>
+            <p class="video-stats">
+              505.928 views &#183;2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/Hacksmith-Thumbnail.webp">
+          <div class="video-time">
+            28:42
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/Hacksmith-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Making a BULLETPROOF John Wick Suit in Real Life!
+            <p class="video-author">
+              Hacksmith Industries
+            </p>
+            <p class="video-stats">
+              17M views &#183;5 Months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/HandOfBlood-Thumbnail.webp">
+          <div class="video-time">
+            22:00
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/HandOfBlood-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Heiße Typen, harter Einsatz | Feuerwehr Simulator
+            <p class="video-author">
+              HandOfBlood
+            </p>
+            <p class="video-stats">
+              483.047 views &#183;2 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/HeldDerSteine-Thumbnail.webp">
+          <div class="video-time">
+            12:04
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/HeldDerSteine-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Schönes Schiff ohne Figur & mit wahllosem Preis: LEGO® Star Wars 75356 Executor Super Star Destroyer
+            <p class="video-author">
+              Held Der Steine Inh. Thomas Panke
+            </p>
+            <p class="video-stats">
+              201.104 views &#183;2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/KaiCenat-Thumbnail.webp">
+          <div class="video-time">
+            21:08
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/KaiCenat-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Bringing My Asian Friend To America!
+            <p class="video-author">
+              Kai Cenat
+            </p>
+            <p class="video-stats">
+              4,5M views &#183;2 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/Kurzgesagt-Thumbnail.webp">
+          <div class="video-time">
+            11:03
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/kurzgesagt-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Das schwarze Loch, das Galaxien killt
+            <p class="video-author">
+              Dinge Erklärt - Kurzgesagt
+            </p>
+            <p class="video-stats">
+              369.358 views &#183;5 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/LuisMora-Thumbnail.webp">
+          <div class="video-time">
+            17:07
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/LuisMora-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              SPONSORING AN UNKNOWN SKATER
+            <p class="video-author">
+              Luis Mora
+            </p>
+            <p class="video-stats">
+              199.836 views &#183;10 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/NikoOmilana-Thumbnail.webp">
+          <div class="video-time">
+            17:01
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/NikoOmilana-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              We Pranked The Mona Lisa
+            <p class="video-author">
+              Niko Omilana
+            </p>
+            <p class="video-stats">
+              10M views &#183;5 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/RickAstley-Thumbnail.webp">
+          <div class="video-time">
+            3:33
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/RickAstley-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Rick Astley - Never Gonna Give You Up (Official Music Video)
+            <p class="video-author">
+              Rick Astley
+            </p>
+            <p class="video-stats">
+              1,4B views &#183;13 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/RyanTrahan-Thumbnail.webp">
+          <div class="video-time">
+            21:20
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/RyanTrahan-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              I Tested 1-Star Yelp Reviews
+            <p class="video-author">
+              Ryan Trahan
+            </p>
+            <p class="video-stats">
+              4M views &#183;5 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/Spiegel-Thumbnail.webp">
+          <div class="video-time">
+            45:51
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/Spiegel-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Neues vom Penny-Markt auf der Reeperbahn: Offenbarung im Discounter | SPIEGEL TV
+            <p class="video-author">
+              DER SPIEGEL
+            </p>
+            <p class="video-stats">
+              2,5M views &#183;2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/StarWarsStories-Thumbnail.webp">
+          <div class="video-time">
+            17:49
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/StarWarsStories-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Die größte Star Wars Theorie aller Zeiten
+            <p class="video-author">
+            Star Wars Stories | Deutsch
+          </p>
+            <p class="video-stats">
+              207.698 views &#183;1 month ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/strgf-Thumbnail.webp">
+          <div class="video-time">
+            23:43
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/strgf-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Der "Healy": Multi-Level-Marketing trifft auf Esoterik | STRG_F
+            <p class="video-author">
+              STRG_F
+            </p>
+            <p class="video-stats">
+              631.442 views &#183;7 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/supersimpledev-thumbnail.webp">
+          <div class="video-time">
+            6:31:24
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/supersimpledev-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              HTML & CSS Full Course - Beginner to Pro
+            <p class="video-author">
+              SuperSimpleDev
+            </p>
+            <p class="video-stats">
+              6,1M views &#183;1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/TheFilmTheorist-Thumbnail.webp">
+          <div class="video-time">
+            15:49
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/TheFilmTheorist-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Film Theory: DON'T Attack The Titans! (Attack on Titan)
+            <p class="video-author">
+              The Film Theorists
+            </p>
+            <p class="video-stats">
+              18M views &#183;6 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-vid">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="../Images/Thumbnails/Tomatolix-Thumbnail.webp">
+          <div class="video-time">
+            12:18
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-pic">
+            <img src="../Images/Profile-Pictures/Tomatolix-Profile.jpg" class="profile-img">
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              Diese Selbstexperimente musste ich abbrechen!
+            <p class="video-author">
+              tomatolix
+            </p>
+            <p class="video-stats">
+              1,5M views &#183;1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
     </div>
-  </div>
 
-</div>
-
-</body>
+  </body>
 </html>
