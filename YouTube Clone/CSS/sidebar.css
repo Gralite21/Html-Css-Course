@@ -19,6 +19,7 @@
 }
 .sidebar-Icon:hover{
     background-color: rgb(235,235,235);
+    border-radius: 12px;
 }
 .sidebar-Icon img {
     height: 24px;
